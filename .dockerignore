@@ -1,0 +1,11 @@
+node_modules
+.next
+.git
+tmpapp
+data/raw
+*.zip
+*.docx
+.env*
+coverage
+test-results
+playwright-report

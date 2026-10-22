@@ -1,0 +1,15 @@
+{
+  "shops.rows": 6476,
+  "shops.with_mall": 4206,
+  "shops.no_hours": 2004,
+  "shops.with_installment": 266,
+  "products.rows": 225903,
+  "products.no_image": 1219,
+  "products.skipped": 2,
+  "offers.rows": 331506,
+  "offers.invalid_price": 15083,
+  "offers.no_timestamp": 769,
+  "offers.orphan": 2,
+  "offers.oldest_change": "2020-12-03T08:51:32.129Z",
+  "offers.newest_change": "2026-10-13T00:02:35.297Z"
+}

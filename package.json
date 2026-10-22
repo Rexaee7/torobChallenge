@@ -1,0 +1,40 @@
+{
+  "name": "hamrah-kharid",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Persian in-person shopping assistant for Tehran on the Torob dataset (hackathon)",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p ${PORT:-3000}",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "data:extract": "node scripts/extract.mjs",
+    "data:build": "tsx scripts/build-db.ts",
+    "smoke": "node scripts/smoke.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/vazirmatn": "5.2.8",
+    "next": "16.4.2",
+    "openai": "5.23.2",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "server-only": "0.0.1",
+    "zustand": "5.0.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.1.14",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "csv-parse": "6.1.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.2",
+    "playwright-core": "^1.56.1",
+    "tailwindcss": "4.1.14",
+    "tsx": "4.20.6",
+    "typescript": "^5",
+    "vitest": "3.2.4"
+  }
+}
