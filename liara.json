@@ -1,6 +1,6 @@
 {
   "platform": "docker",
-  "app": "hamrah-kharid",
+  "app": "hamrah-kharid-torob",
   "port": 3000,
   "healthCheck": {
     "command": "wget -qO- http://127.0.0.1:3000/api/health",

@@ -34,9 +34,9 @@ The app ships as a Docker image (`Dockerfile`, `liara.json`). The database is bu
 ```bash
 npm run data:build
 npm i -g @liara/cli && liara login
-liara env set BOXAPI_API_KEY=... --app hamrah-kharid   # or via the Liara panel
-liara deploy --app hamrah-kharid
-npm run smoke -- https://hamrah-kharid.liara.run
+liara env set BOXAPI_API_KEY=... --app hamrah-kharid-torob   # or via the Liara panel
+liara deploy --app hamrah-kharid-torob
+npm run smoke -- https://hamrah-kharid-torob.liara.run
 ```
 
 ## Data notes
